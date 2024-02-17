@@ -6,7 +6,7 @@ let upload = multer();
 
 allRoutes.get('/', (req,res) => {
     console.log('Reaced root');
-    res.send("Welcome to automate git backend");
+    res.send("Welcome to test automate git backend");
 });
 
 
